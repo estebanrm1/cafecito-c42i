@@ -6,7 +6,6 @@ const Error404 = () => {
             <img src={error} alt="error 404" />
             <div>
             <Button variant='primary' >Volver al inicio</Button>
-
             </div>
         </section>
     );

@@ -1,0 +1,20 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombreProducto": "Café",
+            "precio": 300,
+            "categoria": "bebida caliente",
+            "url": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "descripcion": "alguna descripcion..."
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nombreUsario": "EstebanM",
+            "email": "solsel90@gmail.com",
+            "password": "12345678"
+        }
+    ]
+}
