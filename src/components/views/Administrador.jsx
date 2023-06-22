@@ -23,7 +23,7 @@ const Administrador = () => {
             </tr>
           </thead>
           <tbody>
-           <ItemProducto></ItemProducto>
+          <ItemProducto></ItemProducto>
           </tbody>
         </Table>
       </section>

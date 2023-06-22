@@ -12,9 +12,9 @@
     "usuarios": [
         {
             "id": 1,
-            "nombreUsario": "EstebanM",
+            "nombreUsuario": "EstebanM",
             "email": "solsel90@gmail.com",
-            "password": "12345678"
+            "password": "123456aA"
         }
     ]
 }
