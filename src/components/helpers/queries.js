@@ -39,3 +39,19 @@ export const obtenerListaProductos = async ()=>{
         console.log(error)
     }
 }
+
+export const crearProducto = async (producto)=>{
+    try {
+        const respuesta = await fetch(URL_producto, {
+            method: "POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(producto)
+        });
+        const listaProductos = await respuesta.json();
+        return listaProductos;
+    } catch (error) {
+        console.log(error)
+    }
+}

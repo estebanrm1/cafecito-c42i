@@ -1,8 +1,8 @@
 import { Button } from "react-bootstrap";
 
 
-const ItemProducto = ({producto}) => {
-   return (
+const ItemProducto = ({ producto }) => {
+  return (
     <tr>
       {/* <td>{props.producto._id}</td> */}
       <td>{producto.id}</td>

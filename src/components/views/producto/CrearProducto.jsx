@@ -10,7 +10,6 @@ const CrearProducto = () => {
     reset,
   } = useForm();
 
-
   return (
     <section className="container mainSection">
       <h1 className="display-4 mt-5">Nuevo producto</h1>
