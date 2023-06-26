@@ -7,6 +7,20 @@
       "categoria": "bebida caliente",
       "url": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "descripcion": "alguna descripcion..."
+    },
+    {
+      "nombreProducto": "brownie",
+      "precio": "300",
+      "url": "https://www.cocinacaserayfacil.net/wp-content/uploads/2020/12/Brownie-de-castanas.jpg",
+      "categoria": "dulce",
+      "id": 2
+    },
+    {
+      "nombreProducto": "Jarrita",
+      "precio": "400",
+      "url": "https://gourmet.expob2b.es/uploads/fotos_noticias/2015/11/11239-90381.jpg",
+      "categoria": "bebida caliente",
+      "id": 3
     }
   ],
   "usuarios": [

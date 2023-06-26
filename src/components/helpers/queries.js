@@ -49,8 +49,7 @@ export const crearProducto = async (producto)=>{
             },
             body: JSON.stringify(producto)
         });
-        const listaProductos = await respuesta.json();
-        return listaProductos;
+        return respuesta;
     } catch (error) {
         console.log(error)
     }
