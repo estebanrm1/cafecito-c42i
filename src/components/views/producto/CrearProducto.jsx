@@ -67,7 +67,7 @@ const CrearProducto = () => {
               max: {
                 value: 10000,
                 message: "El precio maximo es de $10000",
-              },
+              }
             })}
           />
           <Form.Text className="text-danger">

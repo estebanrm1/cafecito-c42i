@@ -64,8 +64,7 @@ export const editarProducto = async (producto, id)=>{
             },
             body: JSON.stringify(producto)
         });
-        const listaProductos = await respuesta.json();
-        return listaProductos;
+        return respuesta;
     } catch (error) {
         console.log(error)
     }
@@ -76,8 +75,7 @@ export const borrarProducto = async (id)=>{
         const respuesta = await fetch(URL_producto+'/'+id, {
             method: "DELETE",
         });
-        const listaProductos = await respuesta.json();
-        return listaProductos;
+        return respuesta;
     } catch (error) {
         console.log(error)
     }
